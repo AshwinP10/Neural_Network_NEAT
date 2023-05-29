@@ -38,7 +38,6 @@ def main(genomes = [], config = []):
     ge = []
     cars = []
     t = 0
-
     world = World(STARTING_POS, WIN_WIDTH, WIN_HEIGHT)
     world.win.blit(bg, (0,0))
 
